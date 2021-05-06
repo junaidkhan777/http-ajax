@@ -7,6 +7,7 @@ class App extends Component {
 
   render() {
     return (
+      // <BrowserRouter basename="/my-app"> if we want to start our appp with our url we can define here otherwise the default is "/"
       <BrowserRouter>
         <div className="App">
           <Blog />
